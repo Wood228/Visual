@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pulsetest",
+  "version": "${version}",
+  "name": "Pulse Test Client",
+  "description": "Client-side testing and telemetry harness.",
+  "authors": ["Wood228"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pulsetest.PulseClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
