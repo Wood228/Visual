@@ -28,6 +28,7 @@ public final class PulseClient implements ClientModInitializer {
         modules.register(new HitCounterModule());
         modules.register(new TargetHudModule());
         modules.register(new TestHeartbeatModule());
+        modules.register(new NeuroKillAura());
         openGui = key("key.pulsetest.open_gui", GLFW.GLFW_KEY_RIGHT_SHIFT);
         emergencyStop = key("key.pulsetest.emergency_stop", GLFW.GLFW_KEY_RIGHT_CONTROL);
         toggleTest = key("key.pulsetest.test_mode", GLFW.GLFW_KEY_INSERT);
