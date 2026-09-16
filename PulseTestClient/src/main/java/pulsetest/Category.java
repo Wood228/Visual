@@ -1,5 +1,5 @@
 package pulsetest;
 
 public enum Category {
-    VISUALS, HUD, UTILITIES, TESTING
+    VISUALS, HUD, UTILITIES, COMBAT, TESTING
 }
