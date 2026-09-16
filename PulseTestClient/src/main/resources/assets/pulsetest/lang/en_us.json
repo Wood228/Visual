@@ -1,0 +1,8 @@
+{
+  "key.pulsetest.open_gui": "Open Pulse GUI",
+  "key.pulsetest.emergency_stop": "Emergency Stop",
+  "key.pulsetest.test_mode": "Toggle Test Mode",
+  "key.pulsetest.start_test": "Start Test",
+  "key.pulsetest.stop_test": "Stop Test",
+  "category.pulsetest": "Pulse Test"
+}
